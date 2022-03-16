@@ -10,7 +10,7 @@ const App = () => {
    
    const handleHire = (e) => {
     e.preventDefault();
-    return setOpenToWork(true);
+    setOpenToWork(false);
    }
    
    return (
